@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="eyebrow">{{ site.tagline }}</p>
+  <h1>Building, breaking, and fine-tuning things.</h1>
+  <p class="lede">A garage notebook: LLMs, GPUs, cheap compute, fast experiments, and whatever else is on the bench this week. Mostly lessons learned the slow way, written down so they're quicker next time.</p>
+</section>
+
+<section class="posts">
+  <h2 class="section-label">writing</h2>
+  {% if site.posts.size == 0 %}
+    <p class="empty">nothing here yet. the kettle's on.</p>
+  {% endif %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-title">{{ post.title }}</span>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" | downcase }}</time>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

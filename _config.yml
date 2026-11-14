@@ -1,0 +1,23 @@
+title: xena garage
+tagline: notes from the garage
+description: Building, breaking, and fine-tuning things. LLMs, GPUs, and whatever else is on the bench.
+url: https://xenagarage.github.io
+baseurl: ""
+github_username: xenagarage
+
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
