@@ -1,0 +1,41 @@
+.gitignore
+  s_f43d567db2c989::t_2bfaa3429b5ede 1-5
+README.md
+  s_f43d567db2c989::t_e09d0af76453bd 5-12
+404.html
+  s_f43d567db2c989::t_3011713b606eee 1-9
+Gemfile
+  s_f43d567db2c989::t_8e60cb1a7c6003 1-5
+_config.yml
+  s_f43d567db2c989::t_058c92f0ec7af2 1-23
+_drafts/my-h200-run-was-only-2.7x-faster.md
+  s_f43d567db2c989::t_37b7dd047e37e7 1-37
+_layouts/default.html
+  s_f43d567db2c989::t_2574512b67fc41 1-35
+_layouts/post.html
+  s_f43d567db2c989::t_b13ad311f35dc6 1-24
+_posts/2026-11-14-hello-from-the-garage.md
+  s_f43d567db2c989::t_5292f2bcf57a2e 1-19
+about.md
+  s_f43d567db2c989::t_cf5335947b9066 1-23
+assets/css/style.css
+  s_f43d567db2c989::t_7bd5c712b0e19b 1-158
+index.html
+  s_f43d567db2c989::t_e8bdf8edb7e295 1-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b69704ef8dc2d8ee11544d1b7b36e8ff56d473e2",
+  "prompts": {},
+  "sessions": {
+    "s_f43d567db2c989": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "295a4f56-322d-4e65-abd6-04527cbee5fa",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "xenagarage <shnsenanur@gmail.com>"
+    }
+  }
+}
